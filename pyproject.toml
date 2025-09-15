@@ -1,0 +1,28 @@
+[project]
+name = "fine-tunning"
+version = "0.1.0"
+description = "Base PyTorch + Hugging Face project with uv"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "transformers",
+    "datasets",
+    "huggingface-hub",
+    "numpy",
+    "matplotlib",
+    "jupyter",
+]
+
+[tool.uv]
+# optional settings
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []

@@ -1,0 +1,9 @@
+.devcontainer/setup.fish
+
+#caches
+__pycache__
+.idea
+.mypy_cache
+.vscode
+
+
