@@ -4,6 +4,9 @@
     "dockerfile": "../Dockerfile",
     "context": ".."
   },
+  "runArgs": [
+    "--gpus=all"
+  ],
   "postCreateCommand": "uv sync && .devcontainer/setup.fish",
   "settings": {
     "terminal.integrated.shell.linux": "/usr/bin/fish"

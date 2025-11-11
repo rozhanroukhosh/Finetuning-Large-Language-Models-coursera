@@ -14,6 +14,10 @@ dependencies = [
     "numpy",
     "matplotlib",
     "jupyter",
+    "config>=0.5.1",
+    "jsonlines>=4.0.0",
+    "python-configuration>=0.12.1",
+    "scikit-learn>=1.7.2",
 ]
 
 [tool.uv]
